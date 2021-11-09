@@ -69,7 +69,7 @@ function addReposToCard(repos) {
         .slice(0, 5)
         .forEach(repo => {
             const repoEl = document.createElement('a')
-            repoEl.classList.add('repo')
+            repoEl.classList.add('repos')
             repoEl.href = repo.html_url
             repoEl.target = '_blank'
             repoEl.innerText = repo.name
